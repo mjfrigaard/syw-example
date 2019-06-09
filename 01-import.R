@@ -3,7 +3,7 @@
 # Authored by and feedback to: @mjfrigaard
 # MIT License
 # Version: 1.0
-# repo:
+# repo: https://github.com/mjfrigaard/syw-example
 #=====================================================================#
 
 
