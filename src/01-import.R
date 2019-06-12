@@ -8,16 +8,17 @@
 
 
 
-
-# packages ----------------------------------------------------------------
+# install packages -----------------------------------------------------------
 
 library(readxl)
 library(tidyverse)
 library(janitor)
 
-# locat data file ---------------------------------------------------------
-# fs::dir_tree("data")
-IcanBP <- readxl::read_excel("data/ican_total.xlsx")
+# locate/import data file -----------------------------------------------------
+
+IcanBP <- readr::read_csv("data/IcanBP.csv")
 IcanBP %>% dplyr::glimpse(78)
+
+
 
 
